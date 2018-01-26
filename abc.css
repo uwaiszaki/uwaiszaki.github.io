@@ -1,0 +1,480 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+ article,aside,details,figcaption,figure,
+ footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/*  Main Part  */
+
+::placeholder{ color:black; }
+
+#div1{
+		text-align: center;
+                font-family: "Times New Roman", Times, serif;
+	        font-style:italic;
+		font-size:4vh;
+     }
+
+.tr{
+
+	font-size: 3vh;
+	margin: auto;
+	width: 40vh;
+	text-align: center;
+
+
+   }
+
+.nav{
+	padding: 2vh;
+	width: 100vw;
+	min-width: 10vw;
+	border:.1vh grey solid;
+	position: fixed;
+	top:0;
+	background-color: rgb(0,0,0)
+}
+.container{
+
+	
+	height:100vh;
+	width: 98vw; 
+	margin-top: 0;
+	
+	
+}
+
+#pic{
+
+	height:25vw; width: 20vw;
+	
+	border:2px grey solid;
+	border-radius: 10%;
+	box-shadow: 2px 2px ;
+	transition: height 1.5s , box-shadow 1.5s;
+
+}
+.pqr{
+	height: 60vh;
+	width: 45vw;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(180,180,180,.6);
+	padding-right: 3vh;
+	border-radius: 5%;
+	
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+
+#pic:hover {
+
+	height: 22vw;
+	box-shadow: .6em .6em;
+}
+
+body{
+	
+
+padding: 0;
+margin: 0;
+background: url("background.jpg") fixed no-repeat;
+background-size:cover;
+
+}
+
+#skills{
+
+
+
+	height:100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-start;
+	
+	}
+
+.td{
+
+	width: 50vw; text-align: center;
+	
+	height: 15em;
+}
+
+.box{
+
+		
+		text-align: center;
+		font-size: 1em;
+		height: 100vh;
+		 
+
+}
+.abcd{
+
+	
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	height: 80vh;
+	
+
+}
+.skillrow{
+
+
+	font-size: 3vh;
+}
+
+#h1{
+	text-align: center;
+        font-family: "Times New Roman", Times, serif;
+        font-style:oblique;
+        font-size:6vh;
+}
+
+#contact0{  
+
+
+}
+
+
+
+#contact1{
+height: 10vw;
+display: flex;
+flex-wrap: wrap;
+align-content: center;
+justify-content: center;
+flex-direction: row;
+
+}
+
+
+.socialpics{
+
+height: 10vh;
+width:7vw;
+padding-left: 5vw;
+padding-right: 5vw;
+
+}
+#gmail{
+
+	text-align: center;
+	font-weight: 900;
+}
+
+#contact3{
+            
+            height: 30vh;
+            
+display: flex;
+flex-wrap: wrap;
+align-content: center;
+justify-content: center;
+flex-direction: row;
+        }
+        #contact2{
+            height: 40vh;
+            width: 30vw;
+            background-color: grey;
+            border-radius: 20%;
+            display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+font-size: 3vh;
+        }
+
+
+        #contact{
+ display: flex;
+  align-items: center;
+justify-content: center;
+flex-direction: row;
+flex-wrap: wrap;
+height: 130vh;
+
+
+        }
+        #contactdiv1{
+display: flex;
+  align-items: center;
+justify-content: center;
+flex-direction: column;
+
+margin-right: 10vw;
+
+
+        }
+
+        #contactdiv2{
+display: flex;
+  align-items: center;
+justify-content: center;
+flex-direction: column;
+width: 30vw;
+
+        }
+        h3{
+
+        	text-align: center;
+                padding-top:5vh;
+                font-size:3vh;
+        }
+        h1{
+        	text-align: center;
+        }
+        .div11{
+
+        	height: 30vh;
+        	background-color: rgba(180,180,180,.5);
+        	border-radius: 10%;
+        	width:30vw;
+
+        }
+        .div22{
+               height:60vh;
+        	width:100%;
+        	background-color: rgba(180,180,180,.5);
+        	border-radius: 10%;
+        	display: flex;
+  align-items: center;
+justify-content: center;
+font-family: "Times New Roman", Times, serif;
+font-style: italic;
+font-size: 2em;
+text-align: center;
+flex-direction: column;
+        }
+        .        #contact0{
+        	
+
+        }
+        span{
+        	
+        }
+        .input{
+        	border:2px solid grey;
+        	width: 20vw;
+                border-radius:2%;
+        }
+
+
+@media only screen and (max-width: 900px)
+ {
+   .picc{  padding-left:5vw; }  
+
+
+   .pqr{   flex-direction: column; width:50vw;
+                   }
+
+     #pic{ height:20vh;  width:30vw; }
+   
+     .abcd{ flex-direction: column; }
+
+
+   		#b1{
+  	  font-size:5vw;
+   	}
+   
+		#div1{  font-size:2.5vh; padding-left:7vw; }
+
+
+
+
+		.div22{
+
+    	font-size:1em;
+    	width: 60vw;
+        height:50vh;
+
+    		}
+   
+   	.div11{
+		font-size:1em;
+    	width: 60vw;
+
+  	 }
+
+
+	#contact{
+	flex-direction: column;
+	flex-wrap: nowrap;
+
+      	  }
+
+
+	#contactdiv1{
+	display: flex;
+  	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+	margin: 0;
+
+
+        }
+
+
+        
+	.a{
+
+	flex-direction: column;
+
+
+	}
+        
+
+
+        .input{
+        	
+        	width: 40vw;
+        }
+
+        
+        #b1{   }
+        
+	.tr{ font-size:2vh;
+      		}
+
+
+ }
+
+
+        .a1{
+           padding: 1vw;
+        }
+
+
+        .a{
+
+          padding-top:4vh;
+display: flex;
+  align-items: center;
+justify-content: center;
+flex-direction: row;
+}
+
+#b1{
+    font-size:9vh;
+	color:black;
+}
+
+
+#pic2{
+font-size:8vh; color: black;
+	
+}
+#pic1{
+
+	font-size:8vh; color: #0000FF; 
+}
+#pic3{
+font-size:8vh; color: black; 
+}
+
+}
+
+
+
+
+
+
